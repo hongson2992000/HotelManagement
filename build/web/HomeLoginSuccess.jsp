@@ -43,6 +43,9 @@
                                 </li>
                             </ul>
                             <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item nav-item-btn">
+                                    <a class="nav-link-register btn btn-primary" href="ManagementRoom.jsp">Quản Lý Nhà Cho Thuê</a>
+                                </li>
                                 <li class="nav-user-icon online" onclick="settingsMenuToggle()">
                                     <img src="https://i.ibb.co/G5bZqL7/default-user-icon-3.png" alt="">
                                 </li>

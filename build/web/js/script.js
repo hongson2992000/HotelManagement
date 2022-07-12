@@ -16,6 +16,9 @@ let userHistory = document.querySelector(".category-user-history");
 let categoryItemProfile = document.querySelector(".category-item-active");
 let categoryItemStatus = document.querySelector(".category-item-status");
 
+let managementRoom = document.querySelector(".table-wrapper");
+let managementRoomCal = document.querySelector(".table-wrapper-calculate");
+
 function hideFormProfileUser() {
     userStatus.style.display = "none";
     userProfile.style.display = "block";
@@ -39,4 +42,12 @@ function hideFormProfileUserHistory() {
     userProfile.style.display = "none";
     userNotification.style.display = "none";
     userHistory.style.display = "block";
+}
+function hideFormManagementRoom() {
+    managementRoom.style.display = "block";
+    managementRoomCal.style.display = "none";
+}
+function hideFormManagementCal() {
+    managementRoom.style.display = "none";
+    managementRoomCal.style.display = "block";
 }
